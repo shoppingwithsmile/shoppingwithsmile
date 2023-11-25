@@ -1,0 +1,63 @@
+.common_wrapper {
+    .mens_card {
+        background-color: #ededed;
+        padding: 15px;
+        border-radius: 10px;
+        max-width: 330px;
+        margin: 20px auto 20px auto;
+    }
+
+    .mens_card video {
+        max-width: 100%;
+    }
+
+    .card_detail {
+        margin-top: 15px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .card_title {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    .card_title span{
+        font-weight: bold;
+    }
+
+    .buy_now {
+        background: cadetblue !important;
+        padding: 5px 15px;
+        border-radius: 10px;
+        font-size: 13px;
+        font-weight: 600;
+        color: white;
+    }
+}
+
+.mens_wrapper{
+    .mens_card img{
+        max-width: 182px;
+        height: 236px;
+        margin: auto;
+        display: table;
+        object-fit: contain;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .common-wrapper {
+        .mens_card {
+          margin:  10px  !important;
+        }   
+    }
+}
+@media screen and (max-width: 475px) {
+    .common-wrapper {
+        .mens_card {
+          margin:  auto  !important;
+        }   
+    }
+}

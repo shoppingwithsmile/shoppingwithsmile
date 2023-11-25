@@ -1,0 +1,72 @@
+.home-wrapper {
+    .slick-next {
+        right: 0px;
+        display: none !important;
+    }
+
+    .slick-prev {
+        left: 0px;
+        display: none !important;
+    }
+
+    .custom-prev-button {
+        position: absolute;
+        left: 30px;
+    }
+
+    .custom-next-button {
+        position: absolute;
+        right: 0px;
+    }
+
+    .slick-slider .custom-prev-button,
+    .slick-slider .custom-next-button {
+        width: 40px;
+        height: 40px;
+        background: #adadad !important;
+        border-radius: 50px;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 9999;
+    }
+
+    .more-button {
+        background: cadetblue !important;
+        padding: 10px 15px;
+        border-radius: 10px;
+        font-size: 13px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+    .more-button a {
+        color: white !important;
+
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .home-wrapper {
+        .custom-prev-button {
+            left: 30px;
+        }
+
+        button {
+            width: auto;
+            height: auto;
+            background-color: transparent !important;
+            border-radius: 0px;
+        }
+        .mens_card {
+          margin:  10px  !important;
+        }   
+    }
+}
+@media screen and (max-width: 475px) {
+    .home-wrapper {
+        .mens_card {
+          margin:  auto  !important;
+        }   
+    }
+}
+

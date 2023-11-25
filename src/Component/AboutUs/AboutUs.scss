@@ -1,0 +1,27 @@
+.about-wrapper {
+    .title {
+        font-size: 25px;
+    }
+
+    .description {
+        font-size: 15px;
+        line-height: 20px;
+        text-align: justify;
+    }
+
+    .row img{
+        margin-top: 30px;
+    }
+
+    @media only screen and (max-width: 575px) {
+        .title {
+            font-size: 20px;
+        }
+    
+        .description {
+            font-size: 13px;
+            line-height: 18px;
+            text-align: justify;
+        }
+      }
+}
